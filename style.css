@@ -45,10 +45,10 @@ body
 {
     width: 130px;
     font-size: 25px;
-    margin-bottom: 20px;
 }
 canvas
 {
     border: 5px solid white;
     border-radius: 25px;
+    margin:40px;
 }
