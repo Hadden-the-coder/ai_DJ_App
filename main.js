@@ -50,6 +50,8 @@ function gotPoses(results){
     song.setVolume(volume);
     }
     if(scorerightwrist>0.2){
+         fill("#FF0000");
+        stroke("FF0000");
         circle(rightWristX, rightWristY,20);
         if(rightWristY > 0 && rightWristY <= 100){
             document.getElementById("speed").innerHTML = "speed = 0.5x";
